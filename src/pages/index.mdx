@@ -1,0 +1,50 @@
+---
+title: Physical Humanoid AI
+description: A futuristic interactive homepage for the Physical Humanoid AI book.
+---
+
+import Link from '@docusaurus/Link';
+
+{/* HERO SECTION WITH HUMANOID IMAGE */}
+<div class="relative flex flex-col items-center justify-center text-center mt-10 p-10 rounded-3xl shadow-2xl bg-white dark:bg-black overflow-hidden">
+  {/* Background Animated Lines */}
+  <div class="absolute inset-0 opacity-20 animate-pulse" style={{backgroundImage: "url('/img/ai-grid.png')", backgroundSize: 'cover'}}></div>
+  {/* Humanoid Robot Image */}
+  <img src="/img/humanoid.png" alt="Humanoid AI" class="w-64 h-64 object-cover drop-shadow-2xl mb-6 animate-fade-in" />
+  <h1 class="text-5xl font-extrabold tracking-tight z-10">🤖 Physical Humanoid AI</h1>
+  <h2 class="text-xl mt-2 text-gray-600 dark:text-gray-300 z-10">A Book on Embodied Intelligence & Agentic AI</h2>
+  <p class="max-w-3xl text-lg mt-4 text-gray-700 dark:text-gray-300 leading-relaxed z-10">
+    Explore how AI gains a body, senses the world, makes decisions, and interacts physically like humans. This book blends <b>agentic AI</b>, <b>humanoid robotics</b>, and <b>embodied cognition</b> into a powerful learning journey.
+  </p>
+  {/* Start Reading Button */}
+  <Link
+    className="mt-8 px-8 py-4 text-xl font-semibold rounded-2xl shadow-lg bg-black text-white hover:bg-gray-800 transition-all duration-300 z-10"
+    to="/docs/intro"
+  >
+    🚀 Start Reading
+  </Link>
+</div>
+
+{/* INTERACTIVE FEATURE GRID */}
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 p-4">
+  <div class="p-6 rounded-2xl border shadow-lg hover:scale-105 transition duration-300">
+    <h2 class="text-xl font-bold mb-2">🦾 Embodied AI</h2>
+    <p>Understand how AI interacts with the physical world using sensors, motion, and perception.</p>
+  </div>
+  <div class="p-6 rounded-2xl border shadow-lg hover:scale-105 transition duration-300">
+    <h2 class="text-xl font-bold mb-2">🧠 Agentic Intelligence</h2>
+    <p>Learn how autonomous AI agents plan, act, explore, and make decisions in real-world scenarios.</p>
+  </div>
+  <div class="p-6 rounded-2xl border shadow-lg hover:hover:scale-105 transition duration-300">
+    <h2 class="text-xl font-bold mb-2">🤖 Humanoid Robotics</h2>
+    <p>Dive into the world of human-like robots that walk, see, speak, and collaborate.</p>
+  </div>
+</div>
+
+{/* BOOK DESCRIPTION */}
+<div class="mt-16 p-10 rounded-3xl shadow-xl border bg-gray-50 dark:bg-gray-900 dark:text-white">
+  <h2 class="text-3xl font-bold mb-4 text-center">📘 About This Book</h2>
+  <p class="max-w-4xl mx-auto text-lg leading-relaxed">
+    "Physical Humanoid AI" is your journey into the future of intelligence that lives inside real bodies.      A perfect blend of robotics, motion intelligence, cognitive science, and modern agentic AI.
+  </p>
+</div>

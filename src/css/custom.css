@@ -1,0 +1,64 @@
+/**
+ * Any CSS included here will be global.
+ * You can use it to customize the Docusaurus theme for your site.
+ */
+
+/* Add Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can still add your global CSS variables here, for example: */
+:root {
+  --ifm-color-primary: #8a2be2;
+  --ifm-color-primary-dark: #7a23c9;
+  --ifm-color-primary-darker: #7221bf;
+  --ifm-color-primary-darkest: #5f1c9c;
+  --ifm-color-primary-light: #9a33fb;
+  --ifm-color-primary-lighter: #a240ff;
+  --ifm-color-primary-lightest: #b05cff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #bb86fc;
+  --ifm-color-primary-dark: #a870f7;
+  --ifm-color-primary-darker: #9f66ee;
+  --ifm-color-primary-darkest: #854bd7;
+  --ifm-color-primary-light: #ce9dff;
+  --ifm-color-primary-lighter: #d6aeff;
+  --ifm-color-primary-lightest: #e0beff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom animations (used in homepage) */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.2;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.3;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.animate-pulse {
+  animation: pulse 2s infinite ease-in-out;
+}
