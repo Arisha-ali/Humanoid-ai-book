@@ -23,12 +23,13 @@ const config = {
   url: 'https://arisha-ali.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Humanoid-ai-book/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Arisha-ali', // Usually your GitHub org/user name.
   projectName: 'Humanoid-ai-book', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
@@ -47,10 +48,11 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          path: 'docs',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Arisha-ali/Humanoid-ai-book/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -61,7 +63,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Arisha-ali/Humanoid-ai-book/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -90,14 +92,14 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            type: 'doc',
+            docId: 'intro',
             position: 'left',
             label: 'Book',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/your-org/my-book',
+            href: 'https://github.com/Arisha-ali/Humanoid-ai-book',
             label: 'GitHub',
             position: 'right',
           },

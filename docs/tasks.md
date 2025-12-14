@@ -1,9 +1,6 @@
----
-title: Tasks
----
 # Tasks: My First AI Humanoid Book Development
 
-**Input**: [Plan Document](/docs/Plan/plan), [Specification Document](/docs/Specification/specification)
+**Input**: [Plan](plan), [Specification](spec)
 **Prerequisites**: plan.md, spec.md
 
 ## Phase 1: Docusaurus Setup Tasks

@@ -1,11 +1,8 @@
----
-title: Plan
----
 # Development Plan: My First AI Humanoid
 
 **Feature**: physical-ai-book
 **Date**: 2025-12-10
-**Spec**: [Specification Document](/docs/Specification/specification)
+**Spec**: [Specification Document](spec)
 
 ## 1. Docusaurus Setup and Configuration
 

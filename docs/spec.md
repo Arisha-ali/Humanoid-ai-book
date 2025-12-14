@@ -1,6 +1,3 @@
----
-title: Specification
----
 # Book Specification: My First AI Humanoid
 
 **Feature**: physical-ai-book
