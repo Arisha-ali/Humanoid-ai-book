@@ -29,6 +29,10 @@ The book will make extensive use of diagrams, illustrations, and photographs to 
 
 The tone of the book should be encouraging, inspiring, and friendly. It should foster a sense of curiosity and empower readers to start their own AI humanoid projects.
 
+### 7. Integration of Advanced AI
+
+The book will introduce cutting-edge AI concepts, including Vision-Language-Action (VLA) models and Large Language Models (LLMs), to bridge the gap between theoretical AI and practical robotics. These topics will be presented with a focus on practical application, demonstrating how they can serve as the "brain" for a humanoid robot, enabling natural language understanding and cognitive planning.
+
 ## Governance
 
 This constitution is the guiding document for the project. Any changes must be discussed and agreed upon by the core team.

@@ -73,3 +73,28 @@
 - [ ] T2.4.4 Run Docusaurus locally (`npm start`) to check rendering and navigation.
 
 This checklist provides a structured approach to implementing the first chapter of the book. Subsequent chapters will follow a similar pattern once their content is defined in the specification.
+
+## Phase 3: Chapter 6 Development Tasks
+
+### T3.0 Chapter 6 Directory Structure
+- [x] T3.0.1 Create `docs/chapter-6-vision-language-action/` directory.
+- [x] T3.0.2 Create `docs/chapter-6-vision-language-action/_category_.json` with:
+    ```json
+    {
+      "label": "Chapter 6: Vision-Language-Action (VLA)",
+      "position": 6
+    }
+    ```
+
+### T3.1 Lesson 1: Vision-Language-Action Concepts
+- [x] T3.1.1 Create `docs/chapter-6-vision-language-action/1-vla-concepts.md`
+- [x] T3.1.2 Write content for the VLA lesson.
+    - [x] Introduction to VLA models.
+    - [x] Detailed explanation of the Voice-to-Action pipeline using Whisper within ROS 2.
+    - [x] Description of LLM-based cognitive planning with prompt engineering examples.
+    - [x] Outline of the capstone project demonstrating an autonomous humanoid executing a voice command.
+
+### T3.2 Review and Validation
+- [x] T3.2.1 Review the Chapter 6 lesson for adherence to "Content Guidelines".
+- [x] T3.2.2 Verify that the concepts are explained clearly and the examples are relevant.
+- [x] T3.2.3 Run Docusaurus locally (`npm start`) to check rendering and navigation.

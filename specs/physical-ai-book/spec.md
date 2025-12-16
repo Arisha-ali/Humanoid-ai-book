@@ -63,6 +63,16 @@ docs/
     └── lesson-3.md
 ```
 
+### Chapter 6: Vision-Language-Action (VLA)
+
+*   **Description**: This chapter introduces the concept of Vision-Language-Action (VLA) models, bridging the gap between high-level human commands and low-level robot actions. It will focus on using Large Language Models (LLMs) as a cognitive engine for planning and executing complex tasks based on voice commands.
+
+*   **Lessons**:
+    1.  **VLA Concepts**: An introduction to the VLA triad (Vision, Language, Action) and its importance in creating general-purpose robots.
+    2.  **Voice-to-Action**: A practical guide to using speech-recognition models like OpenAI's Whisper to create a ROS 2 node that converts spoken commands into text.
+    3.  **LLM-based Cognitive Planning**: A deep dive into prompting techniques for using an LLM as a task planner. This lesson will show how to provide world context and a list of available actions to an LLM to generate a sequence of robot commands.
+    4.  **Capstone Project**: A final project that integrates all concepts from the book. A simulated humanoid will receive a voice command, use an LLM to create a plan, and execute the plan to manipulate an object in the environment.
+
 ### Sidebar
 
 The `sidebars.js` file will be configured to automatically generate the sidebar from the `docs` directory structure.
